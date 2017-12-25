@@ -14,6 +14,7 @@ RUN npm install
 
 COPY . /usr/src/app
 
+# port for communication
 EXPOSE 3000
 
 CMD [ "npm", "start" ]
